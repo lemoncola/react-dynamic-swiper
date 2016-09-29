@@ -1,6 +1,6 @@
 {
   "name": "react-dynamic-swiper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React wrapper for IDangerous Swiper that auto-magically updates slides, and reinitializes.",
   "main": "lib",
   "scripts": {
@@ -14,10 +14,10 @@
     "react swiper",
     "idangerous swiper"
   ],
-  "author": "Nick Pisacane <pisacanen@gmail.com>",
+  "author": "LemonCola Apps<lemoncola.apps@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickpisacane/react-dynamic-swiper"
+    "url": "git+https://github.com/lemoncola/react-dynamic-swiper"
   },
   "license": "MIT",
   "devDependencies": {
