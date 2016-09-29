@@ -50,7 +50,7 @@ export default class Swiper extends Component {
     const opts = {}
 
     if (pagination) opts.pagination = this._pagination
-    if (scrollBar) opts.scrollbar = this._scrollbar
+    if (scrollBar) opts.scrollBar = this._scrollbar
     if (navigation) {
       opts.prevButton = this._prevButton
       opts.nextButton = this._nextButton
@@ -126,8 +126,8 @@ export default class Swiper extends Component {
       prevProps.navigation !== this.props.navigation ||
       prevProps.nextButton !== this.props.nextButton ||
       prevProps.prevButton !== this.props.prevButton ||
-      prevProps.pagintion !== this.props.pagination ||
-      prevProps.scrollBar !== this.props.scrollbar
+      prevProps.pagination !== this.props.pagination ||
+      prevProps.scrollBar !== this.props.scrollBar
   }
 
   /**
